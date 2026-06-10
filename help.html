@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вторая жизнь</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Вторая жизнь</div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="help.html">Помощь</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>      
+    </header>
+    <main>
+        <h1 class="help-title">Как помочь приюту</h1>
+        <div class="help-ways">
+        </div>
+        <div class="help-grid">
+        <div class="help-card">
+            <div class="help-buttons">
+            <h2>Финансово</h2>
+            <p>Переведите любую сумму на карту или через СБП. Каждый рубль идёт на лечение, корм и содержание животных.</p>
+            <button class="help-btn" onclick="showPaymentinfo()">Перевести</button>
+        </div>
+        </div>
+            <div class="help-card">
+                <div class="help-buttons">
+                <h2>Корм и лекарства</h2>
+                <p>Мы всегда нуждаемся в сухом и влажном корме, крупах, консервах, а также в препаратах от паразитов и перевязочных материалах.</p>
+                <button class="help-btn" onclick="showNeedList()">Список нужного</button>
+            </div>
+            </div>
+            <div class="help-card">
+                <h2>Вещи и амуниция</h2>
+                <p>Принимаем лежанки, миски, поводки, ошейники, игрушки, старые одеяла и полотенца.</p>                 
+                </div>
+            <div class="help-card">
+                <h2>Волонтёрство</h2>
+                <p>Помогайте с выгулом собак, уборкой вольеров, фотосъёмкой животных или работой на мероприятиях.</p>
+                <button class="help-btn" onclick="showVolunteerForm()" >Записаться</button>
+            </div>
+            <div class="help-card">
+                <h2>Расскажите о нас</h2>
+                <p>Сделайте репост в соцсетях или расскажите друзьям о животных, которые ищут дом. Это бесплатно, но очень эффективно.</p>
+            </div>
+            <div class="help-contacts">
+                <h2>Свяжитесь с нами</h2>
+                <p>Телефон: +7 (123) 456-78-90</p>
+                <p>Email: vtorayazhizn_help@mail.ru</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+            <div class="footer-copyright">
+                © 2024-2026 АНО «Вторая жизнь»
+            </div>
+            </div>
+            <div class="footer-column">
+                <ul class="footer-menu">
+                    <li><a href="help.html">Помощь</a></li> 
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="news.html">Новости</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+    <a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+    <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+</div>
+        <div class="footer-column">
+            <div class="footer-links">
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Пользовательское соглашение</a>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script>
+        function showPaymentinfo() {
+            alert("Способы оплаты:\n\n- Перевод по номеру карты: 1234 5678 9012 3456\n- СБП по номеру телефона: +7 (123) 456-78-90\n- Наличными в приюте");
+        }
+        function showNeedList() {
+            alert("Сейчас особенно нужны:\n\n- Сухой и влажный корм для кошек и собак\n- Крупы (рис, гречка)\n- Консервы для животных\n- Препараты от паразитов\n- Бинты, перчатки, шприцы");
+        }
+        function showVolunteerForm() {
+            alert("Чтобы стать волонтёром:\n\n- Напишите нам в Telegram или VK\n- Приходите в приют (ежедневно с 10:00 до 19:00)\n- Заполните анкету на месте");
+        }
+    </script>
+</body>
+</html>
