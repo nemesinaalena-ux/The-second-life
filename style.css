@@ -28,7 +28,7 @@ header {
     font-weight: 700;
     transition: 0.5s;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none; !important
 }
 .logo:hover {
     background: linear-gradient(90deg, #ff9f1c, #ff6b6b, #ff9f1c);
