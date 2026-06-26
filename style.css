@@ -1032,7 +1032,6 @@ h2 {
     }
     .pet-card, .news-card, .feature-card {
         width: 100%;
-        max-width: 320px;
     }
 
     /* Фильтры */
